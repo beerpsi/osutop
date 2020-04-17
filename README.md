@@ -25,6 +25,10 @@ it means that the API is valid.)
 - Add sorting by total weighted pp gained from a song
 - Support for private servers
 
+# Credits:
+IOException for helping me early on
+
+![IOException help](https://i.imgur.com/EGuPpMa.png)
 # Why 11 padorus?
     
     ./osutop-repeats.sh -k <censored_api_key> -u Maxim_Bogdan 
