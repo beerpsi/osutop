@@ -1,5 +1,5 @@
 # osutop-repeats
-Count how many repeats you have in your osu! top play. Now you can shame your friends for having 11 padorus in their top play.
+Count how many repeats you have in your osu! top play. Now you can shame all the osu! players for having 11 padorus in their top play.
 
 # Usage
 Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -m MODE ]
