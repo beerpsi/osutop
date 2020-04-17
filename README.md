@@ -2,7 +2,7 @@
 Count how many repeats you have in your osu! top play. Now you can shame your friends for having 11 padorus in their top play.
 
 # Usage
-Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -s SEARCH_TERM ] [ -m MODE ]
+Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -m MODE ]
 
 -m is optional, and defaults to 0 (osu!standard)
 
@@ -11,7 +11,7 @@ Valid -m options are: 0 (osu!standard), 1 (osu!taiko), 2 (osu!catch), 3 (osu!man
 
 To get a specific name, pipe the output to grep:
     
-    ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "PADORU / PADORU"
+    ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "search term"
     
 # TODOs:
 - Add sorting by total weighted pp gained from a song
