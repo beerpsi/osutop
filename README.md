@@ -8,6 +8,7 @@ Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -m MODE ]
 
 Valid -m options are: 0 (osu!standard), 1 (osu!taiko), 2 (osu!catch), 3 (osu!mania)
 
+If USERNAME has spaces, replace them with underscores (\_). For example, Maxim Bogdan becomes Maxim_Bogdan.
 
 To get a specific name, pipe the output to grep:
     
