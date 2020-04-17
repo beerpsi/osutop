@@ -15,7 +15,7 @@ To get a specific name, pipe the output to grep:
 
 # Why 11 padorus?
     
-    ./osutop-search.sh -k <censored_api_key> -u Maxim_Bogdan 
+    ./osutop-repeats.sh -k <censored_api_key> -u Maxim_Bogdan 
       11 PADORU / PADORU
       4 Harumachi Clover (Swing Arrangement)
       4 Gokujo. no Jouken (TV Size)
