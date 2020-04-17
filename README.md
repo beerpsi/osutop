@@ -13,7 +13,14 @@ If USERNAME has spaces, replace them with underscores (\_). For example, Maxim B
 To get a specific name, pipe the output to grep:
     
     ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "search term"
+# Problems:
+
+Suppress jq error messages (if you see 
     
+    jq: error (at <stdin>:0): Cannot index array with string "error"
+    
+it means that the API is valid.)
+
 # TODOs:
 - Add sorting by total weighted pp gained from a song
 - Support for private servers
