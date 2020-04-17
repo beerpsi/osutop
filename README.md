@@ -6,6 +6,9 @@ Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -s SEARCH_TERM ] [ -
 
 -m is optional, and defaults to 0 (osu!standard)
 
+Valid -m options are: 0 (osu!standard), 1 (osu!taiko), 2 (osu!catch), 3 (osu!mania)
+
+
 To get a specific name, pipe the output to grep:
     
     ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "PADORU / PADORU"
