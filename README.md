@@ -15,6 +15,16 @@ If USERNAME has spaces, replace them with underscores (\_). For example, Maxim B
 To get a specific name, pipe the output to grep:
     
     ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "search term"
+    
+# Dependencies:
+    jq 
+    getops
+    curl
+    printf
+    sort
+    read
+    echo
+    if, elif, else, then, fi
 # Problems:
 
 Suppress jq error messages (if you see 
