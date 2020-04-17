@@ -24,8 +24,12 @@ Suppress jq error messages (if you see
 it means that the API is valid.)
 
 # TODOs:
-- Add sorting by total weighted pp gained from a song
-- Support for private servers
+
+- [ ] Add sorting by total weighted pp gained from a song
+
+- [ ] Support for private servers
+
+- [ ] A LOT more error checking (invalid gamemode values, invalid username, etc.)
 
 # Credits:
 IOException for helping me early on
