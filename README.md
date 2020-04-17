@@ -7,4 +7,5 @@ Usage: $0 [ -u USERNAME ] [ -k API_KEY ] [ -s SEARCH_TERM ] [ -m MODE ]
 -m is optional, and defaults to 0 (osu!standard)
 
 To get a specific name, pipe the output to grep:
+    
     ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "PADORU / PADORU"
