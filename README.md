@@ -16,6 +16,7 @@ To get a specific name, pipe the output to grep:
     
 # TODOs:
 - Add sorting by total weighted pp gained from a song
+- Support for private servers
 
 # Why 11 padorus?
     
