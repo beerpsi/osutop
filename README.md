@@ -1,20 +1,14 @@
 # osutop-repeats
 Count how many repeats you have in your osu! top play. Now you can shame all the osu! players for having 11 padorus in their top play.
 
+# osutop-sort
+The new version, which now sorts by weighted pp. osutop-repeats will still be updated to have the same features as osutop-sort, except that osutop-repeats still count repeats.
+
 # Usage
-Usage: ./osutop-repeats.sh [ -u USERNAME ] [ -k API_KEY ] [ -m MODE ] [-c COUNT ] 
-
--c COUNT searches for the top COUNT plays. -c is optional, and defaults to 100 (searches in all top 100)
-
--m is optional, and defaults to 0 (osu!standard)
-
-Valid -m options are: 0 (osu!standard), 1 (osu!taiko), 2 (osu!catch), 3 (osu!mania)
+    ./osutop-sort.sh -h
 
 If USERNAME has spaces, replace them with underscores (\_). For example, Maxim Bogdan becomes Maxim_Bogdan.
 
-To get a specific name, pipe the output to grep:
-    
-    ./osutop-repeats.sh -u mrlacpeanut -k api_key | grep "search term"
     
 # Dependencies:
     jq 
@@ -35,7 +29,7 @@ it means that the API is valid.)
 
 # TODOs:
 
-- [ ] Add sorting by total weighted pp gained from a song
+- [x] Add sorting by total weighted pp gained from a song
 
 - [ ] Support for private servers
 
